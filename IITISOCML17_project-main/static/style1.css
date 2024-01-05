@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    font-size: 20px;
+}
+
+.container-fluid{
+    font-size: 20px;
+}
+
+.dropdown{
+    padding-left: 20px;
+}
+
+main h2{
+    font-size: 40px;
+    margin: 40px;
+    padding-top: 20px;
+}
+
+.form-floating{
+    justify-content: center;
+}
+
+.dropdown ul li:hover{
+    background-color: rgb(108,117,125);
+    color: rgb(197,201,203);
+}
+
+.navbar-collapse ul li:hover{
+    background-color: rgb(108,117,125);
+    border: 1px solid white;
+    transform: translateY(-2px);
+    transition: 0.5 ease-in-out;
+    border-radius: 5px;
+    box-shadow: 0 0 26px 1px rgb(108,117,125);
+}
+
+.btn.btn-secondary.dropdown-toggle:hover{
+    background-color: rgb(108,117,125);
+    border: 1px solid white;
+    transition: 0.5 ease-in-out;
+    border-radius: 5px;
+    box-shadow: 0 0 26px 1px rgb(108,117,125);
+    color: aquamarine;
+}
+
+.btn.btn-secondary.button:hover{
+    background-color: rgb(19, 21, 22);
+    border: 1px solid white;
+    transition: 0.5 ease-in-out;
+    border-radius: 5px;
+    box-shadow: 0 0 26px 1px rgb(108,117,125);
+    color: aquamarine;
+}
+
+footer ul li{
+    list-style-type: none;
+    margin: 20px 20px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+footer ul li h3{
+    color: rgb(255, 255, 255);
+}
+
+footer .bi.bi-whatsapp:hover{
+    transform: scale(1.5);
+    transition: 0.5 s ease-in-out;
+    color: #29ad17;
+}
+
+footer .bi.bi-facebook:hover{
+    transform: scale(1.5);
+    transition: 0.5 s ease-in-out;
+    color: #4867aa;
+}
+
+footer .bi.bi-linkedin:hover:hover{
+    transform: scale(1.5);
+    transition: 0.5 s ease-in-out;
+    color: #0072b1;
+}
+
+footer .bi.bi-instagram:hover{
+    transform: scale(1.5);
+    transition: 0.5 s ease-in-out;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+#nav ul li a:hover{
+    color: aquamarine;
+}
+
+

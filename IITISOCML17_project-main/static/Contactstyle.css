@@ -1,0 +1,81 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.contact ul{
+  display: flex;
+  float: right;
+  margin-right: 20px;
+}
+
+.contact ul li{
+  text-decoration: none;
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+main li a{
+  color:#fec66d;
+}
+
+.col-9 p{
+  text-align: justify;
+}
+
+.container-1{
+  border: 2px solid;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+main .bi.bi-github{
+  border-radius: 50%;
+  outline: 2px solid #fff;
+  transition: 0.25s ease-in-out;
+}
+
+main .bi.bi-github:hover{
+  outline-offset: 4px;
+  color: black;
+  outline: 2px solid black;
+}
+
+main .bi.bi-linkedin{
+  border-radius: 50%;
+  outline: 2px solid #fff;
+  transition: 0.25s ease-in-out;
+}
+
+main .bi.bi-linkedin:hover{
+  outline: 2px solid #0072b1;
+  color: #0072b1;
+  outline-offset: 4px;
+}
+
+main .bi.bi-instagram{
+  border-radius: 50%;
+  outline: 2px solid #fff;
+  transition: 0.25s ease-in-out;
+}
+
+main .bi.bi-instagram:hover{
+  outline: 2px solid rgb(159,51,144);
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  outline-offset: 4px;
+  color: white;
+}
+
+
+
+
+
+
+
